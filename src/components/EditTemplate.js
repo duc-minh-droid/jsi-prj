@@ -35,7 +35,7 @@ function EditTemplate() {
 
       <div className='text-center flex flex-col gap-10'>
         <div className='w-80 bg-white p-10 rounded-2xl border-4 border-rose-500'>
-          <p className='text-4xl text-rose-600 font-serif italic'>Write the most heart-warming letter for your mother</p>
+          <p className='text-4xl text-rose-600 font-serif italic'>Write the most heart-warming letter for your woman</p>
         </div>
         <div>
           <button onClick={handleSubmit}

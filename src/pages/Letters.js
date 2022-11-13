@@ -45,7 +45,7 @@ function Letters() {
       <div className='grid grid-cols-4 gap-5'>
         {letters ? letters.map(letter =><div key={letter.createdAt}> 
           <LetterTemplate content={letter.content} template={letter.template} handleDelete={()=>handleDelete(letter.id)}/>
-        </div>) : "You haven't written any letter for your mother! :)"}
+        </div>) : "You haven't written any letter for your woman! :)"}
       </div>
     </PageTemplate>
   )
